@@ -22,7 +22,7 @@ public class Exercicio5 {
         double pv = pr/eleitores*vv;
         double vb = pr/eleitores*brancos;
         double pn = pr/eleitores*nulos;
-        System.out.printf("Votos validos %d\nPercentual de votos válidos: %.2f%%\nPercentual de voto em branco: %.2f%%\nPercentual de votos nulos: %.2f%%47641",vv,pv,vb,pn);
+        System.out.printf("Votos validos %d\nPercentual de votos válidos: %.2f%%\nPercentual de voto em branco: %.2f%%\nPercentual de votos nulos: %.2f%%",vv,pv,vb,pn);
 
     }
 }
