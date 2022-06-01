@@ -1,14 +1,14 @@
-package Classes;
+package Classes.Lanches;
 
 public class XBurguer extends Sanduiche{
 
-    public boolean aberto;
+  private boolean aberto;
     public XBurguer(){
             this.adicionarIngrediente("Hamburguer");
             this.adicionarIngrediente("Queijo");
             this.adicionarIngrediente("Presunto");
 
-        this.tipo = "X-Burguer";
+        this.setTipo("X-Burguer");
 
     }
     @Override
@@ -19,6 +19,11 @@ public class XBurguer extends Sanduiche{
         }
 
     }
-}
+    public void  setAberto (boolean aberto){
+        this.aberto = aberto;
+    }
+    public boolean isAberto(){
+        return this.aberto;
+}}
 
 

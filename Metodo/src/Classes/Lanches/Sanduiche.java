@@ -1,10 +1,10 @@
-package Classes;
+package Classes.Lanches;
 
 
 public abstract class Sanduiche extends Lanche {
 
 
-    public String[] adicionais = new String[10];
+    private String[] adicionais = new String[10];
 
     public Sanduiche() {
         this.adicionarIngrediente("Pão");
@@ -39,5 +39,11 @@ public abstract class Sanduiche extends Lanche {
 
                 }
             }
+    public void  setAdicionais (String[] adicionais){
+        this.adicionais = adicionais;
+    }
+    public String[] getAdicionais(){
+        return this.adicionais;
+    }
         }
 

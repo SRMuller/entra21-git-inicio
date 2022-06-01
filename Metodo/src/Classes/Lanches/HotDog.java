@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Lanches;
 
 public class HotDog extends Sanduiche{
     public HotDog(){
@@ -6,6 +6,6 @@ public class HotDog extends Sanduiche{
         this.adicionarIngrediente("Queijo Parmesão");
         this.adicionarIngrediente("Batata Palha");
         this.adicionarIngrediente("Picles");
-        this.tipo = "Hot-Dog";
+        this.setTipo("Hot-Dog");
     }
 }

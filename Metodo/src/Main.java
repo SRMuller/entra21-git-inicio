@@ -1,8 +1,9 @@
-import Classes.*;
+import Classes.Lanches.*;
 
 import java.util.Scanner;
 
 public class Main {
+    public static Scanner in = new Scanner(System.in);
     public static void main(String[] args) {
 
 
@@ -31,44 +32,41 @@ public class Main {
                 System.err.println("Escolha uma opção válida:");
         }
         if (lanche instanceof Sanduiche){
-        if (lanche instanceof XBurguer) {
-            System.out.println("Deseja Aberto S/N");
-            in.nextLine();
-            String aberto = in.next();
-            ((XBurguer) lanche).aberto = aberto.equalsIgnoreCase("S");
-            for (int j = 0; j < 10; j++){
-                System.out.println("Informe o adicional");
+            if (lanche instanceof XBurguer) {
+                System.out.println("Deseja Aberto S/N");
                 in.nextLine();
-                ((Sanduiche)lanche).adicionarAdicionais(in.nextLine());
-                System.out.println("Deseja adicionar mais um intem? S/N");
-                String s = in.nextLine();
-                if(s.equalsIgnoreCase("n")){
-                    break;
-                }}}
+                String aberto = in.next();
+                ((XBurguer) lanche).aberto = aberto.equalsIgnoreCase("S");
+                for (int j = 0; j < 10; j++){
+                    System.out.println("Informe o adicional");
+                    in.nextLine();
+                    ((Sanduiche)lanche).adicionarAdicionais(in.nextLine());
+                    System.out.println("Deseja adicionar mais um intem? S/N");
+                    String s = in.nextLine();
+                    if(s.equalsIgnoreCase("n")){
+                        break;
+                    }}}
 
-         else {
-            System.out.println("Deseja com ou sem borda C/S");
-            in.nextLine();
-                  String borda = in.next();
-            MiniPizza minipizza = ((MiniPizza) lanche);
-            (minipizza).borda = borda.equalsIgnoreCase("c");
-            if (minipizza.borda) {
-                System.out.println("Informe o sabor da Borda:");
+            else {
+                System.out.println("Deseja com ou sem borda C/S");
                 in.nextLine();
-                (minipizza).sabor = in.nextLine();
+                String borda = in.next();
+                MiniPizza minipizza = ((MiniPizza) lanche);
+                (minipizza).borda = borda.equalsIgnoreCase("c");
+                if (minipizza.borda) {
+                    System.out.println("Informe o sabor da Borda:");
+                    in.nextLine();
+                    (minipizza).sabor = in.nextLine();
+                }
+
+
+
+
+
             }
-
-
-
-
-
-                           }
         }
         System.out.println("Informe o valor do lanche:");
         lanche.valor = in.nextDouble();
         lanche.montarComanda();
     }
 }
-
-
-
