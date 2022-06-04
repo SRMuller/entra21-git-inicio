@@ -8,11 +8,7 @@ public class Pizza extends MiniPizza {
    }
 
 
-   @Override
-   public void montarComanda() {
-      super.montarComanda();
-      System.out.println("Tamanho "+ this.getTamanho());
-   }
+
    public void  setTamanho (String tamanho){
       this.tamanho = tamanho;
    }

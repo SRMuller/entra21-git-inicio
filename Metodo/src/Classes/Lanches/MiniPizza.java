@@ -13,7 +13,15 @@ public class MiniPizza extends Lanche {
         this.setTipo("Mini Pizza");
     }
 
-    public void adicionarSaborEingredientes(String sabor) {
+    public boolean isBorda() {
+        return borda;
+    }
+
+    public void setBorda(boolean borda) {
+        this.borda = borda;
+    }
+
+    private void adicionarSaborEingredientes(String sabor) {
         this.setSabor(sabor);
         switch (sabor.toUpperCase()) {
             case "4 QUEIJOS":
@@ -43,14 +51,9 @@ public class MiniPizza extends Lanche {
     }
 
 
-    @Override
-    public void montarComanda() {
-        super.montarComanda();
-        if (this.borda) {
-            System.out.println("--\n--BORDA RECHEADA --\n--" + this.getSaborBorda() + "--");
 
-        }
-    }
+
+
 
     public void setborda(boolean borda) {
         this.borda = borda;

@@ -26,23 +26,11 @@ public abstract class Sanduiche extends Lanche {
 
 
 
-            @Override
-            public void montarComanda () {
-                super.montarComanda();
-                if (adicionais[0] != null) {
-                    System.out.println("--ADICIONAIS --");
-                    for (int i = 0; i < adicionais.length; i++) {
-                        if (adicionais[i] != null) {
-                            System.out.print("--" + adicionais[i].toUpperCase() + "--\n");
-                        }
-                    }
 
-                }
-            }
-    public void  setAdicionais (String[] adicionais){
+    public void  setadicionais (String[] adicionais){
         this.adicionais = adicionais;
     }
-    public String[] getAdicionais(){
+    public String[] getadicionais(){
         return this.adicionais;
     }
         }
