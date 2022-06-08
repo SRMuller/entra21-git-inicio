@@ -3,10 +3,8 @@ import java.util.UUID;
 
 public class Tarefa {
 
+    private checkListItem[] checkList;
 
-
-
-    private   checkLisst[] checkLisstItem;
 
     private String uuid;
 
@@ -16,7 +14,20 @@ public class Tarefa {
 
     private boolean completa;
 
-    private int ordem;
+    public boolean temCheckList(){
+        return this.getChecklist() != null;
+
+        return false;
+    }
+    public void criarCheckList(int tamanho){
+        this.setCheckList();
+
+    }
+    public boolean adicionarCheckListItem(checkLisst item) {
+        return false;
+    }
+
+
 
     public Tarefa() {
         this.setUuid(UUID.randomUUID().toString());
@@ -55,16 +66,9 @@ public class Tarefa {
         this.completa = completa;
     }
 
-    public int getOrdem() {
-        return ordem;
-    }
 
-    public void setOrdem(int ordem) {
-        this.ordem = ordem;
-    }
 
     public void setCheckLisstItem(checkLisst[] checkLisstItem) {
-        this.checkLisstItem = checkLisstItem;
     }
 
 }

@@ -10,7 +10,6 @@ public class checkLisst {
 
     private boolean completa;
 
-    private int ordem;
 
     public checkLisst() {
         this.setUuid(UUID.randomUUID().toString());
@@ -48,13 +47,6 @@ public class checkLisst {
         this.completa = completa;
     }
 
-    public int getOrdem() {
-        return ordem;
-    }
-
-    public void setOrdem(int ordem) {
-        this.ordem = ordem;
-    }
 
 
 }
