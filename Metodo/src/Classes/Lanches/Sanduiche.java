@@ -1,10 +1,12 @@
 package Classes.Lanches;
 
 
+import java.util.ArrayList;
+
 public abstract class Sanduiche extends Lanche {
 
 
-    private String[] adicionais = new String[10];
+    private ArrayList<String> adicionais = new ArrayList<>();
 
     public Sanduiche() {
         this.adicionarIngrediente("Pão");
@@ -12,25 +14,15 @@ public abstract class Sanduiche extends Lanche {
     }
 
     public void adicionarAdicionais(String adicional){
-        for (int i = 0; i < 10; i++) {
-            if (this.adicionais[i] == null) {
-                this.adicionais[i] = adicional;
+        for (int i = 0; i < adicionais.size(); i++) {
+
+                this.adicionais.add(adicional) ;
                 break;
 
 
             }
         }
-    }
-
-
-
-
-
-
-    public void  setadicionais (String[] adicionais){
-        this.adicionais = adicionais;
-    }
-    public String[] getadicionais(){
+    public ArrayList<String> getadicionais(){
         return this.adicionais;
     }
         }

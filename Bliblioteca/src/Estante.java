@@ -5,7 +5,7 @@ public class Estante {
     public int capacidademaxima(){
         return 0;
     }
-    private Item[] itens ;
+    private Item[] itens = new Item[5];
     public Estante(int capMaxima){
         setCapMaxima(capMaxima);
         setItens(new Item[capMaxima]);
@@ -15,28 +15,28 @@ public class Estante {
 
 
     private  boolean estanteCheia(){
-            if (qutDeItens() == capacidademaxima()){
-        return false;
+            return  this.qutDeItens() == this.capacidademaxima();
     }
-        return false;
-    }
-    private int qutDeItens (){
+    public int qutDeItens (){
         int qte = 0;
-        for (Item a : itens)
-            if (a != null){
+        for (Item a : itens) {
+            if (a != null) {
                 qte++;
             }
+        }
         return qte;
     }
-    private Item buscarItem(String titulo){
+    public Item buscarItem(String titulo){
         for (Item a : itens){
+            if (a != null){
             if(a.getTitulo().equalsIgnoreCase(titulo)){
                 return a;
+            }
             }
         }
         return null;
     }
-    private boolean adicionarItem(Item item) {
+    public boolean adicionarItem(Item item) {
         for (int i = 0; i < itens.length; i++) {
             if (itens[i] == null) {
                 itens[i] = item;
@@ -46,8 +46,10 @@ public class Estante {
         return false;
     }
 
-    private Item removerItem(int posicao){
-     return itens[posicao]=null;
+    public Item removerItem(int posicao){
+        Item i = itens[posicao];
+        itens[posicao]=null;
+        return i;
 
     }
 
@@ -66,4 +68,5 @@ public class Estante {
     public void setItens(Item[] itens) {
         this.itens = itens;
     }
+
 }

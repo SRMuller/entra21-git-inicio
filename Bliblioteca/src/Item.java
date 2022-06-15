@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public abstract class  Item {
+public abstract class Item {
 
 
 
@@ -56,6 +56,22 @@ public abstract class  Item {
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
+    }
+
+    public Avaliacao[] getAvaliacao() {
+        return avaliacao;
+    }
+
+    public void setAvaliacao(Avaliacao[] avaliacao) {
+        this.avaliacao = avaliacao;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
     }
 }
 

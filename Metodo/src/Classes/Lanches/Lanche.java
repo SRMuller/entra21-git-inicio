@@ -16,6 +16,8 @@ public abstract class Lanche {
             }
         }
     }
+public abstract void mostrarDetalhesDaComanda();
+
 
 
     public void setTipo(String tipo) {

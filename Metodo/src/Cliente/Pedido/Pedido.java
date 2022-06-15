@@ -2,15 +2,17 @@ package Cliente.Pedido;
 
 import Classes.Lanches.*;
 
+import java.util.ArrayList;
+
 public class Pedido {
 
-    private Lanche[] lanches = new Lanche[10];
+    private ArrayList<Lanche> lanches = new ArrayList<>();
 
     public void ipmimirComanda() {
 
 
         for (Lanche l : this.getLanches()) {
-            if (l != null) {
+
                 if (l instanceof MiniPizza) {
                     MiniPizza mp = ((MiniPizza) l);
                     System.out.println("===" + l.getTipo() + " - \n" + "====" + ((MiniPizza) l).getSabor() + "====");
@@ -35,53 +37,46 @@ public class Pedido {
                         System.out.println(ingredente);
 
                     }
-                }
+
 
 
                 if (l instanceof Sanduiche) {
                     Sanduiche s = (Sanduiche) l;
-                    if (s.getadicionais()[0] != null) {
-                        System.out.println("--ADICIONAIS --");
+                    System.out.println("--ADICIONAIS --");
                         for (String adi : s.getadicionais()) {
-                            if (adi != null) {
                                 System.out.print("--" + adi.toUpperCase() + "--\n");
                             }
                         }
-                    }
+
                 }
             }
-        }
+
         System.out.printf("Total apagar: R$%.2f\n",this.calcularVlorTotal());
         System.out.println("______________________________");
     }
 
     public double calcularVlorTotal() {
         double valortotal = 0;
-        for (int i = 0; i < lanches.length; i++) {
-            if (lanches[i] != null) {
-                valortotal += lanches[i].getValor();
-            }
+        for (int i = 0; i < lanches.size(); i++) {
+
+                valortotal += lanches.get(i).getValor();
+
         }
         return valortotal;
     }
 
     public void adicionarLanche(Lanche lanche) {
-        for (int i = 0; i < 10; i++) {
-            if (this.lanches[i] == null) {
-                this.lanches[i] = lanche;
-                break;
-            }
+     this.lanches.add(lanche);
         }
-    }
 
-    public Lanche[] getLanches() {
+
+    public ArrayList<Lanche> getLanches() {
         return this.lanches;
     }
 
 
-    public void setLanches(Lanche[] lanches) {
-        this.lanches = lanches;
-    }
+
+
 }
 
 
