@@ -17,6 +17,12 @@ public class XBurguer extends Sanduiche{
     }
     public boolean isAberto(){
         return this.aberto;
-}}
+}
+
+    @Override
+    public void mostrarDetalhesDaComanda() {
+
+    }
+}
 
 

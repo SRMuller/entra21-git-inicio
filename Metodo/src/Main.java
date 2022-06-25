@@ -57,8 +57,9 @@ public class Main {
                 ((XBurguer) lanche).isAberto();
                 for (int j = 0; j < 10; j++) {
                     System.out.println("Informe o adicional");
-                    in.nextLine();
-                    ((Sanduiche) lanche).adicionarAdicionais(in.nextLine());
+                    String nomeadicional=in.nextLine();
+                    System.out.println("Informe o valor do adicional");
+                    lanche.adicionarAdicionais(nomeadicional, in.nextDouble());
                     System.out.println("Deseja adicionar mais um intem? S/N");
                     String s = in.nextLine();
                     if (s.equalsIgnoreCase("n")) {
