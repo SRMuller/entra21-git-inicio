@@ -1,7 +1,8 @@
+import java.util.AbstractMap;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Onibus implements MeioTrasporte{
-
 
 
 
@@ -79,4 +80,6 @@ public class Onibus implements MeioTrasporte{
             assentos.add(a);
         }
     }
+
+
 }

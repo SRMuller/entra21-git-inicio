@@ -7,6 +7,20 @@ public class  Aviao implements MeioTrasporte {
 
     public void setAssentos(ArrayList<AssentoVoo> assentos) {
         this.assentos = assentos;
+    }]
+
+    public void Aviao ( int linhasCadeirasLuxo, int linhasCadeirasEconomica ){
+    for (int i = 0; i < 4*linhasCadeirasLuxo; i++){
+        AssentoVoo a = new AssentoVoo();
+        a.setClasse(ClasseAssentoVoo.LUXO);
+        assentos.add(a);
+    }
+        for (int i = 0; i < 6*linhasCadeirasEconomica; i++){
+            AssentoVoo a = new AssentoVoo();
+            a.setClasse(ClasseAssentoVoo.ECONOMICA);
+            assentos.add(a);
+
+        }
     }
 
     private ArrayList<AssentoVoo> assentos = new ArrayList<>();
@@ -49,9 +63,9 @@ public class  Aviao implements MeioTrasporte {
         return null;
     }
 
-    public Object getAssento(String assento, String classe) {
+    public Object getAssento(String assento, ClasseAssentoVoo classe) {
         for (AssentoVoo v : assentos) {
-            if (v.getCodigo().equalsIgnoreCase(assento)){
+            if (v.getCodigo().equalsIgnoreCase(assento) && v.getClasse().equals(classe)){
                 return v;
             }
         }

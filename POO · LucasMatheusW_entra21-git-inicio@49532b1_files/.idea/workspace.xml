@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d87784e-15f6-464f-a950-89f36b9eb779" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BAralho/src/Baralho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BAralho/src/Carta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BAralho/src/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BAralho/src/Naipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BAralho/src/ValorCarta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bliblioteca/src/EMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bliblioteca/src/EMenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bliblioteca/src/Loja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Viagem/src/ClasseAssentoVoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/src/Dvd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/src/Dvd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/src/Estante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/src/Estante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/src/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/src/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Viagem/src/AssentoVoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Viagem/src/AssentoVoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Viagem/src/Aviao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Viagem/src/Aviao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Viagem/src/Onibus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Viagem/src/Onibus.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2BMhHoPhbN5Dm9laWNlHftD4QvM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/srmuller/Documents/GIT/entra21-git-inicio/POO · LucasMatheusW_entra21-git-inicio@49532b1_files"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d87784e-15f6-464f-a950-89f36b9eb779" name="Changes" comment="" />
+      <created>1656721775709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656721775709</updated>
+    </task>
+    <servers />
+  </component>
+</project>

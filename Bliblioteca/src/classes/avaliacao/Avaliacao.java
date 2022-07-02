@@ -1,10 +1,11 @@
+package classes.avaliacao;
+
 public class Avaliacao {
-
     private double rating;
-
     private String nome;
-
     private String feedback;
+
+    // GETTERS & SETTERS
 
     public double getRating() {
         return rating;
