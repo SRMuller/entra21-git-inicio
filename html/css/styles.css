@@ -1,0 +1,351 @@
+*
+
+{
+    font-family: 'poppins';
+}
+
+
+table.contained{
+    margin: 0 15% ;
+    width: 70%;
+    
+}
+
+table{
+
+width: 100%;
+border-spacing: 0cm;
+border-collapse: collapse;
+}
+
+th{
+    text-align: start;
+    background-color:#d5ebd9 ;
+    padding: 8px 4px;
+
+}
+tfoot tr.sum td {
+
+    text-align: right !important;
+}
+/* tfoot tr{
+    border-bottom: 0;
+} */
+small{
+  font-size: 12px;
+}
+/* tr{
+    
+    border-bottom: 1px solid cornflowerblue;
+} */
+#table-dashboard td:first-child {
+    
+    width: 50%;
+  }
+  #table-dashboard td:nth-child(2) {
+   
+    width: 40%;
+  }
+  #table-dashboard td:last-child {
+   
+    width: 10%;
+    text-align: center;
+  }
+  #table-dashboard td:last-child a {
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 1.75px 3.75px;
+    display: inline-block;
+    color: black;
+    border-radius: 12.5px;
+    
+  }
+  #table-dashboard tr:nth-child(even) td{
+    background-color: rgb(219, 221, 223);
+  }
+  h1.link{
+        background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p2/3378105-abacaxi-com-oculos-de-sol-na-praia-fundo-verao-conceito-tropical-grátis-foto.jpg');
+        text-align: center;
+        width: 50%;
+        background-size: 600px 200px ;
+        margin: 0 20% ;
+  }
+  #aside-links ul li  {
+    display: inline;
+    width: 12%;
+  
+  }
+  @media screen and (max-width: 600px) {
+  html, body{
+    background-color: aqua;
+     }
+     ul.navlist {
+      margin: 0, 48px;
+     }
+     ul.navilist li a{
+      display: block;
+     }
+  
+  }
+  #body-title {
+    display: inline;
+  }
+  
+  
+  .card{
+    text-align: center;
+    margin: 30px 600px;
+    box-shadow: 15px -9px 13px 5px #000;
+    background-color: rgb(206, 214, 214);
+    border: #000;
+  }
+  .center{
+    width: 100%;
+    text-align: center;
+
+  }
+  #area
+{
+  position:relative;
+  left:37%;
+  top:29%;
+  width:500px;
+  height:350px;
+}
+#area #formulario
+{
+  display:inline-block;
+}
+#formulario label
+{
+display: inline;  
+}
+#formulario input.campo_nome
+{
+  display: inline; 
+
+}
+#formulario input.date
+{
+ display: inline; 
+}
+#formulario input.cor{
+  display: inline;
+
+}
+fieldset.elist, input[type="text"], textarea, select, option, fieldset.elist ul, fieldset.elist > legend, fieldset.elist input[type="text"], fieldset.elist > legend:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  padding: 0 20px;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+}
+
+textarea, input[type="text"], fieldset.elist ul, select, fieldset.elist > legend {
+  border: 2px #cccccc solid;
+  border-radius: 10px;
+}
+
+input[type="text"], fieldset.elist, select, fieldset.elist > legend {
+  height: 32px;
+  font-family: Tahoma;
+  font-size: 14px;
+}
+
+input[type="text"]:hover, textarea:hover, select:hover, fieldset.elist:hover > legend {
+  background-color: #ddddff;
+}
+
+select {
+  padding: 4px 20px;
+}
+
+option {
+  height: 30px;
+  padding: 5px 4px;
+}
+
+option:not(:checked), textarea:focus {
+  background-color: #ffcccc;
+}
+
+fieldset.elist > legend:after, fieldset.elist label {
+  height: 28px;
+}
+
+input[type="text"], fieldset.elist {
+  width: 316px;
+}
+
+input[type="text"]:focus {
+  background: #ffcccc url("data:image/gif;base64,R0lGODlhEAAQANU5APnoxuvr6+uxPdvb2+rq6ri4uO7qxunp6dPT06SHV+/rx8vLy+nezLO0sbe3t9Ksas+qaaCEV8rKyp2dnf39/QAAAK6ursifZHFxcc/Qzu3mxYyMjExCJnV1dc6maO7u7o+Pj2tXNoaGhtfDpKCDVu3lxM+tcaKEV9bW1qOFVWNjY8KrisTExNra2nBbObGxsby8vO/mu7Kyso9ZAuzs7MSgAIiKhf///8zMzP///wAAAAAAAAAAAAAAAAAAAAAAACH5BAEAADkALAAAAAAQABAAAAaXwJxwSCwOYzWkMpkkZmoAqDQaJdpqAqw2m53NRjlboAarFczomcE0C99o8DgNMVM8Tm3bbYDr9x11DwkzDG5yc2oQJIRCenx/MxoeETM2Q3pxATMlF4MYlo17OAsdLispMyAioIY0BzMcITMTKBasjgssFTMqGxItMjYUoTQBBAQHxgE0wZcfMtDRMi/QrA022NnaNg1CQQA7") no-repeat 2px center !important;
+}
+
+input[type="text"]:focus, textarea:focus, select:focus, fieldset.elist > legend {
+  border: 2px #ccaaaa solid;
+}
+
+fieldset {
+  border: 2px #af3333 solid;
+  border-radius: 10px;
+}
+
+/* Editable [pseudo]select (i.e. fieldsets with [class=elist]) */
+
+fieldset.elist {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+fieldset.elist ul {
+  position: absolute;
+  width: 100%;
+  max-height: 320px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+fieldset.elist:hover ul {
+  background-color: #ffffff;
+  border: 2px #af3333 solid;
+  left: 2px;
+  overflow: auto;
+}
+
+fieldset.elist ul > li {
+  list-style-type: none;
+  background-color: transparent;
+}
+
+fieldset.elist label {
+  display: inline;
+  width: 100%;
+}
+
+fieldset.elist input[type="text"] {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+fieldset.elist > legend {
+  display: block;
+  margin: 0;
+  padding: 0 0 0 5px;
+  position: absolute;
+  width: 100%;
+  cursor: default;
+  background-color: #ccffcc;
+  line-height: 30px;
+  font-style: italic;
+}
+
+fieldset.elist:hover > legend {
+  position: relative;
+  overflow: hidden;
+}
+
+fieldset.elist > legend:after {
+  width: 20px;
+  content: "\2335";
+  float: right;
+  text-align: center;
+  border-left: 2px #cccccc solid;
+  font-style: normal;
+  cursor: default;
+}
+
+fieldset.elist:hover > legend:after {
+  background-color: #99ff99;
+}
+
+fieldset.elist ul input[type="radio"] {
+  display: none;
+}
+
+fieldset.elist input[type="radio"]:checked ~ label {
+  display: block;
+  width: 292px;
+  background-color: #ffffff;
+}
+
+
+
+fieldset.elist:hover label {
+  display: inline;
+  height: 100%;
+  
+}
+
+fieldset.elist label:hover {
+  background-color: #c0c0c7 !important;
+  box-shadow: 15px -6px teal;
+  
+}
+
+fieldset.elist:hover input[type="radio"]:checked ~ label {
+  background-color: #aaaaaa;
+}
+.btn{
+  border: 0;
+  background-color: transparent;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+.btn.btn-succes{
+  background-color: rgb(75, 191, 75);
+}
+.btn.btn-succes:hover{
+  background-color: rgb(100, 214, 100);
+}
+.btn.btn-succes:active{
+  background-color: rgb(54, 150, 54);
+}
+.btn.btn-danger{
+  background-color: rgb(161, 45, 45);
+}
+.btn.btn-danger:active{
+  background-color: rgb(161, 45, 45);
+}
+  .btn.btn-danger:hover{
+    background-color: rgb(240, 4, 4);
+  }
+  .btn.btn-warning{
+    background-color: rgb(143, 126, 52);
+  }
+
+  .btn.btn-warning:hover{
+    background-color: rgb(241, 199, 9);
+  }
+  .btn.btn-warning:active{
+    background-color: rgb(143, 126, 52);
+  
+  }
+  .botao a, ul.navilist li a{
+    border: 0;
+  background-color: transparent;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  }

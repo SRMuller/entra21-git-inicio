@@ -1,4 +1,4 @@
-package com.entra21.primeiroprojetospring.view;
+package com.entra21.primeiroprojetospring.view.Repository;
 
 import com.entra21.primeiroprojetospring.model.entity.DvdEntity;
 import org.springframework.data.jpa.repository.JpaRepository;

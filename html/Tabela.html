@@ -1,0 +1,166 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript">
+
+        var lanches = []; 
+        var id_seq = 0;
+        
+        function onAdd(){
+            let nome = prompt("informe o nome do lanche");
+            let valor = prompt(`informe o valor de ${nome}`);
+            let lanche = {
+                "id":id_seq,
+                "nome":nome,
+                "valor": Number(valor)
+            };
+            
+            lanches.push(lanche);
+            id_seq++;
+            tableLoad();
+        }
+
+        function tableLoad(){
+            let tableBody = document.getElementById("table-dashboard").getElementsByTagName("tbody")[0];
+            tableBody.innerHTML = lanches.map((lanche) =>{
+               return `
+               <tr>
+                <td  id="lanche-${lanche.id}-nome">${lanche.nome}</td>
+                <td  id="lanche-${lanche.id}-valor">${lanche.valor}</td>
+                <td class = "botao" id="lanche-${lanche.id}-crud">
+                    <button class="btn btn-danger" onclick= "onDelete(${lanche.id})">Excluir</button>
+                    <button class="btn btn-warning" onclick= "onAlter(${lanche.id})">Alterar</button>
+                    </td>
+                    <td class = "botao" style = "display: none;" id="lanche-${lanche.id}-save">
+                    <button class="btn btn-success" onclick= "onSave(${lanche.id})">Salvar</button>
+                    <button class="btn btn-danger" onclick= "onCancel(${lanche.id})">Cancelar</button>
+                    </td>
+               </tr>  
+            `}).join("");
+        }
+        function onCancel(id){
+            document.getElementById(`lanche-${lanche.id}-nome`).innerHTML = `${lanche.nome}`;
+            document.getElementById(`lanche-${lanche.id}-valor`).innerHTML = `${lanche.valor}`;
+            document.getElementById(`lanche-${lanche.id}-crud`).style = "";
+            document.getElementById(`lanche-${lanche.id}-save`).style = "display: none;";
+        }
+        function onSave(id){
+            let lanche = lanches.find(lanche => lanche.id === id);
+            lanche.nome = document.getElementById(`input-lanche-${lanche.id}-nome`).value;
+            document.getElementById(`lanche-${lanche.id}-nome`).innerHTML = `${lanche.nome}`;
+            lanche.valor = document.getElementById(`input-lanche-${lanche.id}-valor`).value;
+            document.getElementById(`lanche-${lanche.id}-valor`).innerHTML = `${lanche.valor}`;
+            document.getElementById(`lanche-${lanche.id}-crud`).style = "";
+            document.getElementById(`lanche-${lanche.id}-save`).style = "display: none;";
+        }
+
+
+        function onAlter(id){
+            let lanche = lanches.find(lanche => lanche.id === id);
+        document.getElementById(`lanche-${lanche.id}-nome`).innerHTML = `
+        <input type="text" id="input=lanche-${lanche.id}-nome" value="${lanche.nome}"/> `;
+
+        document.getElementById(`lanche-${lanche.id}-valor`).innerHTML = `
+        <input type="number" id="input=lanche-${lanche.id}-valor" value="${lanche.valor}"/> `;
+
+        document.getElementById(`lanche-${lanche.id}-crud`).style = "display: none;";
+        document.getElementById(`lanche-${lanche.id}-save`).style = "";
+            }
+        
+        function onDelete(id){
+            let lanche = lanches.find(lanche => lanche.id === id);
+            let userConf = confirm(`Deseja exclçuir o lanche ${lanche.nome}?`);
+            if (userConf){
+               lanches = lanches.filter(lanche => lanche.id !== id);
+               tableLoad();
+
+            }
+        }
+    </script>
+</head>
+<body>
+    <table id="table-dashboard">
+        <caption><h3>Vendas</h3></caption>
+        <thead>
+            <tr>
+                <th>Lanche</th>
+                <th colspan="2">Valor</th>
+            </tr>  
+        </thead>
+        <tbody>
+           <!-- <tr >
+                <td>January</td>
+                <td>100,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>  
+            <tr >
+                <td>February</td>
+                <td>80,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>
+            <tr >
+                <td>March</td>
+                <td>120,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>
+            <tr >
+                <td>April</td>
+                <td>110,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>
+            <tr >
+                <td> May</td>
+                <td>90,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>
+            <tr >
+                <td>June</td>
+                <td>85,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>
+            <tr >
+                <td>July</td>
+                <td>80,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>
+            <tr >
+                <td>August</td>
+                <td>180,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>
+            <tr >
+                <td>September</td>
+                <td>
+                    130,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>
+            <tr >
+                <td>October</td>
+                <td>180,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>
+            <tr >
+                <td>November</td>
+                <td>110,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>
+            <tr >
+                <td>December</td>
+                <td>140,00</td>
+                <td><a href="#" >view</a></td>
+            </tr>-->
+        </tbody>
+        <tfoot>
+            <tr  class="sum">    
+                <td  colspan="3"  >
+                <button class="btn btn-succes" onclick="onAdd()" >Adicionar </button></td>
+            </tr>
+        </tfoot>
+    </table>
+<body>
+</html>
