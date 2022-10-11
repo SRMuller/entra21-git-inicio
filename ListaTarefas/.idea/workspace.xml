@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80fbaa80-50a9-4fca-b42d-8b10e83f8fde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarefa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Metodo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Metodo/src/ListaTarefas/Tarefa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/HotDog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/HotDog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/Lanche.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/Lanche.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/MiniPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/MiniPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/MistoQuente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/MistoQuente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/Sanduiche.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/Sanduiche.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/XBurguer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/XBurguer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/XSalada.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/XSalada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Passagens/Voo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/HotDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/HotDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/Lanche.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/Lanche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/MiniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/MiniPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/MistoQuente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/MistoQuente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/Sanduiche.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/Sanduiche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/XBurguer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/XBurguer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/XSalada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/XSalada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Passagens/Voo.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29woHjztXtYsjQlOBM8YoGjzb7T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "14",
+    "last_opened_file_path": "C:/Users/srmuller/entra21-git-inicio/README.md",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "GitIgnore"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ListaTarefas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80fbaa80-50a9-4fca-b42d-8b10e83f8fde" name="Changes" comment="" />
+      <created>1654033424171</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654033424171</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

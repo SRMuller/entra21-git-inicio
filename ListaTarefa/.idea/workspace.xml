@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="541d5d99-05ba-4263-9632-8479a99687d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/HotDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/Lanche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/MiniPizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/MistoQuente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/Pizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/Sanduiche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/XBurguer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/out/production/Metodo/Classes/XSalada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/Lanche.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/Lanche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/MiniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/MiniPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/Sanduiche.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/Sanduiche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/XBurguer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/XBurguer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Cliente/Pedido/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Cliente/Pedido/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metodo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="29wpRHf8PuqF1LGR0R90dxKR9Qg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/srmuller/Documents/GIT/entra21-git-inicio/ListaTarefa&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="541d5d99-05ba-4263-9632-8479a99687d4" name="Changes" comment="" />
+      <created>1654033993565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654033993565</updated>
+    </task>
+    <servers />
+  </component>
+</project>

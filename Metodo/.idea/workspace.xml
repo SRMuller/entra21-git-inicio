@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a574a961-685d-4bd5-a418-8b2a5790baa2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Classes/Lanches/Emenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/out/production/Bliblioteca/Avaliacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/out/production/Bliblioteca/Dvd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/out/production/Bliblioteca/Estante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/out/production/Bliblioteca/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/out/production/Bliblioteca/Livro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/out/production/Bliblioteca/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/out/production/Bliblioteca/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/src/classes/EMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/src/classes/EMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/src/classes/avaliacao/Avaliacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/src/classes/avaliacao/Avaliacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/src/classes/guardados/Estante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/src/classes/guardados/Estante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bliblioteca/src/classes/itens/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bliblioteca/src/classes/itens/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO · LucasMatheusW_entra21-git-inicio@49532b1_files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POO · LucasMatheusW_entra21-git-inicio@49532b1_files/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29aEs92AQFOgwrg9Hz5fv55tr1r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/srmuller/Documents/GIT/entra21-git-inicio/Spring/exercicios-sb1-1-20220829T213845Z-001/exercicios-sb1-1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\srmuller\Documents\GIT\entra21-git-inicio\Metodo\src\Lanches" />
+      <recent name="C:\Users\srmuller\Documents\GIT\entra21-git-inicio\Metodo\src\Classes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Classes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Classes.Main" />
+      <module name="Metodo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Metodo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main2" />
+      <module name="Metodo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Classes.Main" />
+        <item itemvalue="Application.Main2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a574a961-685d-4bd5-a418-8b2a5790baa2" name="Changes" comment="" />
+      <created>1653343001612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653343001612</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Metodo$Main.ic" NAME="Main Coverage Results" MODIFIED="1653436050912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
