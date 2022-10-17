@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f27806da-206c-4cec-a8b7-01c3bf769014" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Metodo/src/Classes/Lanches/Emenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bliblioteca/Avaliacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bliblioteca/Dvd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bliblioteca/Estante.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bliblioteca/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bliblioteca/Livro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bliblioteca/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bliblioteca/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/EMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/EMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/avaliacao/Avaliacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/avaliacao/Avaliacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/guardados/Estante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/guardados/Estante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/itens/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/itens/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Metodo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodo/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POO · LucasMatheusW_entra21-git-inicio@49532b1_files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POO · LucasMatheusW_entra21-git-inicio@49532b1_files/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f27806da-206c-4cec-a8b7-01c3bf769014" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
