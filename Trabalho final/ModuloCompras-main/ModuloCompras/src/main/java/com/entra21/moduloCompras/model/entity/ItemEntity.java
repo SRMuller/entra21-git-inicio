@@ -21,6 +21,9 @@ public class ItemEntity {
     @Column(name = "ativo")
     private Boolean ativo;
 
+    @Column(name = "unidademedida")
+    private String unidademedida;
+
     @ManyToOne
     @JoinColumn(name = "id_empresa", referencedColumnName = "id")
     private EmpresaEntity id_empresa;

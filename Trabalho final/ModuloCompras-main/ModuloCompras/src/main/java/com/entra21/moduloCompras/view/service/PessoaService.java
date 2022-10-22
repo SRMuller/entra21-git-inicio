@@ -1,11 +1,14 @@
 package com.entra21.moduloCompras.view.service;
 
 
+import com.entra21.moduloCompras.model.dto.UsuarioDTO;
 import com.entra21.moduloCompras.model.dto.PessoaDTO;
 import com.entra21.moduloCompras.model.entity.PessoaEntity;
+import com.entra21.moduloCompras.view.repository.EmpresaRepository;
 import com.entra21.moduloCompras.view.repository.PessoaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -15,11 +18,21 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
+
 @Service
 public class PessoaService implements UserDetailsService {
     @Autowired
     private PessoaRepository pessoaRepository;
 
+    @Autowired
+    private EmpresaRepository empresaRepository;
+
+    public void criar(PessoaDTO dto){
+        PessoaEntity ps = new PessoaEntity();
+        ps.setLogin(dto.getLogin());
+        ps.setSenha(dto.getSenha());
+        pessoaRepository.save(ps);
+    }
     public List<PessoaDTO> getAll() {
         return pessoaRepository.findAll().stream().map(p -> {
             PessoaDTO dto = new PessoaDTO();
@@ -85,5 +98,27 @@ public class PessoaService implements UserDetailsService {
             throw new UsernameNotFoundException(username);
         }
         return e;
+    }
+
+    public PessoaEntity getLogado() {
+        try {
+            return (PessoaEntity) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        } catch(Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public UsuarioDTO getLogin(UsuarioDTO login) {
+        PessoaEntity u = pessoaRepository.findByLogin(login.getUsername());
+        if (u.getPassword().equals(login.getPassword())) {
+            UsuarioDTO dto = new UsuarioDTO();
+            dto.setEmpresaEntity(empresaRepository.findByIdGerente(u));
+            dto.setPassword(u.getPassword());
+            dto.setUsername(u.getUsername());
+            dto.setId(u.getId());
+            return dto ;
+        }
+        throw new RuntimeException("Senha inválida!");
     }
 }

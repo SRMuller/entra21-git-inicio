@@ -24,7 +24,7 @@ public class PessoaRestController {
         pessoaService.save(pessoaDTO);
     }
 
-    @GetMapping("/{id}")
+    @PostMapping("/{id}")
     public PessoaDTO getPessoa(@PathVariable(name = "id") Long id) {
         return pessoaService.getById(id);
     }

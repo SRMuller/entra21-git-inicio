@@ -2,6 +2,7 @@ package com.entra21.moduloCompras.view.service;
 
 import com.entra21.moduloCompras.model.dto.OrdemCompraItemDTO;
 import com.entra21.moduloCompras.model.entity.OrdemCompraItemEntity;
+import com.entra21.moduloCompras.view.repository.ItemRepository;
 import com.entra21.moduloCompras.view.repository.OrdemCompraItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,6 +17,9 @@ public class OrdemCompraItemService {
     @Autowired
     private OrdemCompraItemRepository ordemCompraItemRepository;
 
+    @Autowired
+    private ItemRepository itemRepository;
+
     public List<OrdemCompraItemDTO> getAll() {
         return ordemCompraItemRepository.findAll().stream().map(o -> {
             OrdemCompraItemDTO dto = new OrdemCompraItemDTO();
@@ -28,6 +32,7 @@ public class OrdemCompraItemService {
     public void save(OrdemCompraItemDTO input) {
         OrdemCompraItemEntity newEntity = new OrdemCompraItemEntity();
         newEntity.setQuantidade(input.getQuantidade());
+        newEntity.setIdItem(itemRepository.findById(input.getId()).orElseThrow(()->new RuntimeException(String.valueOf(HttpStatus.NOT_FOUND))));
         ordemCompraItemRepository.save(newEntity);
     }
 

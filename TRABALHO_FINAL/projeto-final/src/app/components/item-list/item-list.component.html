@@ -1,0 +1,40 @@
+<div *ngIf="!isGerandoOrcamento">
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Item</th>
+                <th>Unidade Medida</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let itens of listItens">
+                <td><input type="checkbox" name="selected" id="{{itens.id}}_selected"
+                        (change)="selectItem(itens, $event)"></td>
+                <td>{{itens.descricao}}</td>
+                <td>{{itens.unidademedida}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <button (click)="gerarOrcamento()">Gerar orçamento</button>
+</div>
+<div *ngIf="isGerandoOrcamento">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Unidade Medida</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let itens of listItemG">
+                <td>{{itens.descricao}}</td>
+                <td>{{itens.unidademedida}}</td>
+                <td><input type="number" name="qtde" id="{{itens.id}}_qtde" placeholder="Quantidade"
+                        (change)="setQtdeItem(itens, $event)"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button (click)="onSubmit()">Enviar orçamento</button>
+</div>

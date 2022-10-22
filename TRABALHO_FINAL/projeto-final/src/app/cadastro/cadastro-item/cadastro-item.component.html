@@ -1,0 +1,17 @@
+<form [formGroup]="ItemForm" (submit)="onSubmit()">
+    <div>
+    <div class="container">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Descriçao</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Descricao" required formControlName="descricao">
+      </div>
+      <div class="container">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Unidade de Medida</span>
+        </div>
+        <input type="text" class="form-control" placeholder="UnidadMedida" required formControlName="unidademedida">
+      </div>
+      </div>
+</form>
+

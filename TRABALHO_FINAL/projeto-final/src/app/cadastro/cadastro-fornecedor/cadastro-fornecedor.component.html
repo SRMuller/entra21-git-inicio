@@ -1,0 +1,28 @@
+<form [formGroup]="EmpresaForm" (submit)="onSubmit()">
+    <div>
+    <div class="container">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Nome</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Nome" required formControlName="razao_social">
+      </div>
+      <div class="container">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">CNPJ</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Nome" required formControlName="cnpj">
+      </div>
+      <div class="container">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Telefone</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Nome" required formControlName="telefone">
+      </div>
+      <div class="container">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Endereço</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Nome" required formControlName="endereco">
+      </div>
+        </div>
+</form>

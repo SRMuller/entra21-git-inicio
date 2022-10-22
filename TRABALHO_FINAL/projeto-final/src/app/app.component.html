@@ -1,0 +1,40 @@
+<nav class="navbar" style="background-color: #adb846;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" *ngIf="user == null">PG</a>
+      <a *ngIf="user != null" class="navbar-brand" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu">☰ PG</a>
+      <div id="navbarSupportedContent">
+        <div class="spacer"></div>
+        <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+          <li class="nav-item" *ngIf="user == null">
+            <a class="nav-link" routerLink="/login">Login/Cadastro</a>
+          </li>
+          <li class="nav-item" *ngIf="user != null">
+            <a class="nav-link" href="#" (click)="logout()">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<div class="offcanvas offcanvas-start " style="background-color: #adb846" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" data-bs-dismiss="offcanvas" routerLink="/cadastro">Cadastro</a>
+              </li>
+              <li class="nav-item" >
+                <a class="nav-link" data-bs-dismiss="offcanvas" routerLink="/area-fornecedor">Area Fornecedor</a>
+                </li>
+            <li class="nav-item" >
+                    <a class="nav-link" data-bs-dismiss="offcanvas" routerLink="/area-cliente">Area cliente</a>
+            </li>
+          </ul>
+    </div>
+  </div>
+  <div class="container">
+      <router-outlet></router-outlet>
+  </div>

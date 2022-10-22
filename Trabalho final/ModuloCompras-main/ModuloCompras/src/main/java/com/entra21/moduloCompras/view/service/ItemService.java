@@ -25,6 +25,7 @@ public class ItemService {
             ItemDTO dto = new ItemDTO();
             dto.setId(i.getId());
             dto.setDescricao(i.getDescricao());
+            dto.setUnidademedida(i.getUnidademedida());
             dto.setAtivo(i.getAtivo());
             return dto;
         }).collect(Collectors.toList());
